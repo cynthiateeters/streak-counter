@@ -8,7 +8,7 @@ interface Streak {
 
 const KEY = 'streak'
 
-export function streakCounter(storage: Storage, date: Date) {
+export function streakCounter(storage: Storage, date: Date): Streak {
   const streak =  {
     currentCount: 1,
     startDate: formattedDate(date),
