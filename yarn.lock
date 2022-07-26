@@ -9,11 +9,6 @@
   dependencies:
     "@sinclair/typebox" "^0.24.1"
 
-"@jsjoeio/streak-counter@^0.0.4":
-  "integrity" "sha512-GH/HFS/aFDNyMwwa8WYhJ600SWatKS8ksBdvRqOgft3Lu481lhI8gTUp2VrjvZxHVRs8bCt9F6FdeFlbotJOZg=="
-  "resolved" "https://registry.npmjs.org/@jsjoeio/streak-counter/-/streak-counter-0.0.4.tgz"
-  "version" "0.0.4"
-
 "@polka/url@^1.0.0-next.20":
   "integrity" "sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g=="
   "resolved" "https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.21.tgz"
