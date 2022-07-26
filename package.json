@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "vitest --ui",
-    "build": "tsc && vite build",
+    "build": "tsc",
     "preview": "vite preview"
   },
   "repository": {
