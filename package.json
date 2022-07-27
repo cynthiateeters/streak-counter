@@ -1,30 +1,45 @@
 {
   "name": "@cynthiateeters/streak-counter",
   "version": "0.0.1",
-  "description": "This is a basic streak counter - inspired by Duolingo - written in TypeScript and meant for the browser (uses `localStorage`). It is tested using vitest and jsdom.",
-  "main": "index.js",
-  "devDependencies": {
-    "@types/jest": "^28.1.6",
-    "@types/jsdom": "^20.0.0",
-    "@vitest/ui": "^0.19.1",
-    "jsdom": "^20.0.0",
-    "typescript": "^4.7.4",
-    "vite": "^3.0.3",
-    "vitest": "^0.19.1"
+  "description": "This is a basic streak counter - inspired by Duolingo - written in TypeScript and meant for the browser (uses `localStorage`).",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "source": "src/index.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.modern.js"
   },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
   "scripts": {
-    "test": "vitest --ui",
-    "build": "tsc"
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "vitest --ui"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cynthiateeters/streak-counter.git"
   },
-  "keywords": ["typescript", "counter", "vitest"],
+  "keywords": [
+    "typescript",
+    "counter",
+    "vitest"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cynthiateeters/streak-counter/issues"
   },
-  "homepage": "https://github.com/cynthiateeters/streak-counter#readme"
+  "homepage": "https://github.com/cynthiateeters/streak-counter#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/jsdom": "^20.0.0",
+    "@vitest/ui": "^0.19.1",
+    "jsdom": "^20.0.0",
+    "microbundle": "^0.15.0",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.3",
+    "vitest": "^0.19.1"
+  }
 }
