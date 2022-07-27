@@ -1,6 +1,6 @@
 {
   "name": "@cynthiateeters/streak-counter",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "This is a basic streak counter - inspired by Duolingo - written in TypeScript and meant for the browser (uses `localStorage`).",
   "type": "module",
   "types": "./dist/index.d.ts",
@@ -10,7 +10,7 @@
     "default": "./dist/index.modern.js"
   },
   "main": "./dist/index.cjs",
-  "module": "./dist/index.module.js",
+  "module": "./dist/index.js",
   "unpkg": "./dist/index.umd.js",
   "scripts": {
     "build": "microbundle",
