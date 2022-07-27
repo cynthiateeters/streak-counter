@@ -1,7 +1,7 @@
 {
-  "name": "streak-counter",
-  "version": "1.0.0",
-  "description": "This is a basic streak counter - inspired by Duolingo - written in TypeScript and meant for the browser (uses `localStorage`).",
+  "name": "@cynthiateeters/streak-counter",
+  "version": "0.0.1",
+  "description": "This is a basic streak counter - inspired by Duolingo - written in TypeScript and meant for the browser (uses `localStorage`). It is tested using vitest and jsdom.",
   "main": "index.js",
   "devDependencies": {
     "@types/jest": "^28.1.6",
@@ -14,16 +14,15 @@
   },
   "scripts": {
     "test": "vitest --ui",
-    "build": "tsc",
-    "preview": "vite preview"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cynthiateeters/streak-counter.git"
   },
-  "keywords": [],
+  "keywords": ["typescript", "counter", "vitest"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/cynthiateeters/streak-counter/issues"
   },
